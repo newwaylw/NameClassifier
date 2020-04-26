@@ -14,8 +14,8 @@ My NB classifier metrics (using arity=3) are below:
 
 |   | Female |  Male | Precision  | Recall  | F1 score|
 |---|---|---|---|---|---|
-| Female  | 7550 | 1306  | 0.853  | 0.759  | 0.803 |
-| Male  | 2397  | 8754  | 0.785  | 0.870  | 0.825|
+| Female | 7741 | 1350 | 0.852 | 0.778 | 0.813 |
+| Male | 2206 | 8710 | 0.798 | 0.866 | 0.830 |
 
 ## How to Run
 ```

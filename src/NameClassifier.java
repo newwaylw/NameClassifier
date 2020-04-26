@@ -180,7 +180,7 @@ public class NameClassifier {
                 String[] elements = line.split("\t");
                 boolean isTest = (elements[3].equals("Test"));
                 if (isTest) {
-                    name = elements[1];
+                    name = elements[1].toLowerCase();
                     trueLabel = elements[2];
                     boolean isFemaleName = classifier.predict(name);
                     if (isFemaleName) {
